@@ -1,0 +1,6 @@
+framework module HelloFlutterFramework {
+  umbrella header "HelloFlutterFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

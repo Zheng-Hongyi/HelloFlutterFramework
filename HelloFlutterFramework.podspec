@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HelloFlutterFramework/Classes/**/*'
-  
+  s.ios.vendored_frameworks = 'Release/*.xcframework'
   # s.resource_bundles = {
   #   'HelloFlutterFramework' => ['HelloFlutterFramework/Assets/*.png']
   # }

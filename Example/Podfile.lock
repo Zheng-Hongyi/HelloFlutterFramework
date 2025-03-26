@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HelloFlutterFramework (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HelloFlutterFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HelloFlutterFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HelloFlutterFramework: 4ab49eec79230f94519c2bd058aa2411f68bc963
+
+PODFILE CHECKSUM: 66653e35a4e8f7d06ca3f2a9160d78db515dae4f
+
+COCOAPODS: 1.16.2
